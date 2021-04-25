@@ -1,3 +1,3 @@
 # python-project2
 
-Simple engligh-french translator
+Simple english-french translator
