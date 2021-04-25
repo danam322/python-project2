@@ -1,0 +1,85 @@
+Da seo Min 501022491
+CPS 109 - section 02
+
+8 improvements:
+
+#1 The domain changed to hanging out with my family (watching a movie and singing and going for a drive)
+#2 A reverse function added to the program
+#3 The dictionary increased to 53 words
+#4 Removing the extra period at the end
+#5 Takes user's input and add it to the dictionary
+#6 Takes user's input to translate (words or sentences)
+#7 Changing the first letter of the sentence that it wants to translate, into a lower case letter before looking for that word in the dictionary (because the program will not recognize it if the word isn't written exactly like the word in the dictionary)
+#8 Changing the first letter of the sentence into an upper case letter after translating (because every sentence starts with an upper case letter)
+
+
+
+Output:
+
+
+Samples:
+--------------------------------------
+Input: I watch a movie with my family members.
+Output: Je regarde un film avec mon famille membres.
+--------------------------------------
+Input: The movie is very sad but beautiful.
+Output: Le film est très triste mais beau.
+--------------------------------------
+Input: I like it but not my brother.
+Output: Je aime ceci mais pas mon frère.
+--------------------------------------
+Input: We eat popcorn and drink juice.
+Output: Nous mange popcorn et bois jus.
+--------------------------------------
+Input: We go for a drive.
+Output: Nous allons pour un conduit.
+--------------------------------------
+Input: Je commence le radio.
+Output: I start the radio.
+--------------------------------------
+Input: Notre favori musique joue.
+Output: Our favorite music plays.
+--------------------------------------
+Input: Si je chante ils chante avec moi.
+Output: If I sing they sing with me.
+--------------------------------------
+Input: Je souvient tous le memoires.
+Output: I reminisce all the memories.
+--------------------------------------
+Input: Nous presque frappe un chat.
+Output: We almost hit a cat.
+--------------------------------------
+Hello there,
+would you like to add a word to the dictionary
+before using the translator? (answer using :y/n) 
+y
+Enter the word you want to add (enter / to stop): 
+dog
+Enter its definition: 
+chien
+Enter the word you want to add (enter / to stop): 
+dog
+That word is already in the dictionary.
+Enter the word you want to add (enter / to stop): 
+/
+Here's your updated dictionary.
+{'with': 'avec', 'I': 'je', 'watch': 'regarde', 'movie': 'film', 'family': 'famille', 'sings': 'chante', 'happy': 'heureux', 'and': 'et', 'of': 'du', 'members': 'membres', 'the': 'le', 'is': 'est', 'very': 'très', 'sad': 'triste', 'beautiful': 'beau', 'like': 'aime', 'it': 'ceci', 'but': 'mais', 'not': 'pas', 'my': 'mon', 'if': 'si', 'they': 'ils', 'we': 'nous', 'eat': 'mange', 'popcorn': 'popcorn', 'also': 'aussi', 'juice': 'jus', 'make': 'crée', 'plans': 'plans', 'go': 'allons', 'for': 'pour', 'a': 'un', 'drive': 'conduit', 'Therefore': 'donc', 'almost': 'presque', 'hit': 'frappe', 'cat': 'chat', 'start': 'commence', 'radio': 'radio', 'our': 'notre', 'favorite': 'favori', 'music': 'musique', 'plays': 'joue', 'reminisce': 'souvient', 'all': 'tous', 'memories': 'memoires', 'have': 'avons', 'from': 'de', 'sing': 'chante', 'many': 'beaucoup', 'me': 'moi', 'brother': 'frère', 'drink': 'bois', 'dog': 'chien'}
+--------------------------------------
+What do you want to translate? (enter / to stop) 
+My family members like dog.
+Please enter one of the following: (E to F/F to E): 
+E to F
+Mon famille membres aime chien.
+What do you want to translate? (enter / to stop) 
+Je mange le popcorn.
+Please enter one of the following: (E to F/F to E): 
+F to e
+Sorry I don't understand
+Please enter one of the following: (E to F/F to E): 
+F to E
+I eat the popcorn.
+What do you want to translate? (enter / to stop) 
+/
+--------------------------------------
+
+Process finished with exit code 0
